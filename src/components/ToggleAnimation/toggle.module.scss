@@ -1,0 +1,16 @@
+.animation {
+  &__circle {
+    animation: circleAnim 1.3s infinite alternate-reverse;
+  }
+}
+
+@keyframes circleAnim {
+  from {
+    transform: translate(196px, 611px);
+    z-index: 5;
+  }
+
+  to {
+    transform: translate(196px, 634px);
+  }
+}
